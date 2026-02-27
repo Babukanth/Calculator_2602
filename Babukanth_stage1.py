@@ -18,3 +18,18 @@ def calculator(num1, num2, op):
 
 result = calculator(10, 5, "+")
 print("Result =", result)
+
+result = calculator(10, 5, "-")
+print("Result =", result)
+
+result = calculator(10, 5, "/")
+print("Result =", result)
+
+result = calculator(10, 5, "*")
+print("Result =", result)
+
+result = calculator(10, 0, "/")
+print("Result =", result)
+
+result = calculator(10, 5, "**")
+print("Result =", result)
